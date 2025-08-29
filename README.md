@@ -52,6 +52,25 @@ Coloca los archivos de esta forma:
 
 4. Los resultados aparecerán en la carpeta `output/`.
 
+
+---
+
+## 💡 Alternativa en Windows (.bat)
+Si no quieres usar Python, también incluimos dos scripts `.bat` que hacen lo mismo directamente con **ffmpeg**:
+
+- `join_audio.bat` → une cada vídeo con el primer audio de `audio/` (lo repite en bucle si es necesario).  
+- `add_logo.bat` → añade el logo `overlay.png` en la esquina inferior izquierda de todos los vídeos.  
+
+### Uso
+1. Coloca los archivos en la misma estructura de carpetas (`videos/`, `audio/`, `overlay.png`).  
+2. Ejecuta el `.bat` correspondiente haciendo doble clic o desde consola:  
+
+   ```bash
+   join_audio.bat
+   add_logo.bat
+   ```
+
+
 ---
 
 ## ⚠️ Atención
